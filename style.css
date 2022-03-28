@@ -1,15 +1,22 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #1f2937;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
+    width: 1500px;
+    
 }
 
 .header h2 {
@@ -22,8 +29,10 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .header li {
     margin-left: 20px;
+    padding: 5px;
 }
 
 a {
@@ -31,6 +40,52 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    border: solid red;
+}
+
+.hero {
+    color: #f9faf8;
+    font-size: 48px;
+    width: 400px;
+    font-weight: bolder;
+    border: solid blue;
+}
+
+.card {
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 400px;
+    border: solid blue;
+}
+
+button {
+    padding: 8px 35px;
+    border-radius: 8px;
+}
+
+button.sign-up {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+    border: solid blue;
+}
+
 
 .footer {
     display: flex;
