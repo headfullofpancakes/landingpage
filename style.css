@@ -99,14 +99,12 @@ button.sign-up {
     margin-top: 50px;
 }
 
-/* look up how to change background color sections*/
-
-
 .container-2 {
     display: flex;
     justify-content: center;
     gap: 52px;
     text-align: center;
+    padding: 1rem 14rem 7rem;
 }
 
 
@@ -127,17 +125,22 @@ button.sign-up {
     justify-content: center;
     align-items: center;
     background: #e5e7eb;
+    padding: 1rem 14rem 7rem;
 }
 
 .quote {
     width: 900px;
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1f2937;
 }
 
 .thor {
-    align-self:
+    align-self:flex-end;
+    margin-right: 400px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .footer {
