@@ -10,6 +10,7 @@ body {
 .first {
     background: #1f2937;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -144,11 +145,45 @@ button.sign-up {
     font-weight: bold;
 }
 
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.last-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    background: royalblue;
+    color: white;
+    width:  1000px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 50px;
+  
+}
+
+.action {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sign-up-last {
+    height: 50px;
+    border: solid white;
+    background: royalblue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
     background: #1f2937;
-
+    padding: 50px;
 }
